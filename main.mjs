@@ -11,7 +11,6 @@ function sleep(ms) {
 
 function placeToName(id){
     let baseName = id.replace("place-", "");
-    console.log(baseName);
 
     if (baseName == "masta"){
         return "Mass Ave";
